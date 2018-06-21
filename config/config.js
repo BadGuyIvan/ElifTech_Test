@@ -1,0 +1,1 @@
+export const mongoURI = "mongodb://localhost:/company_123";

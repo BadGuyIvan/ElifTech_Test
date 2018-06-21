@@ -1,0 +1,1 @@
+for application launch you need run mongoDB service then in terminal find the absolute path into the project root directory and run the following commands in terminal: first "npm install", then "npm run server"
