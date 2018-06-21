@@ -134,7 +134,7 @@ class ChildForm extends Component {
                     />
                 </FormGroup>
                 <FormGroup>
-                    <ControlLabel>Earn Company</ControlLabel>
+                    <ControlLabel>Estimated Earnings Child Company</ControlLabel>
                     <FormControl
                         type="number"
                         name="estimatedEarnings"

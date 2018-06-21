@@ -73,7 +73,10 @@ class Form extends Component {
             estimatedEarnings: this.state.estimatedEarnings
         }
 
-        Api("POST",company);
+        if(this.state.companyName !== '')
+        {
+            Api("POST",company);
+        }
         
         this.setState({
             companyName: '',
@@ -133,7 +136,7 @@ class Form extends Component {
                     />
                 </FormGroup>
                 <FormGroup>
-                    <ControlLabel>Earn Company</ControlLabel>
+                    <ControlLabel>Estimated Earnings Company</ControlLabel>
                     <FormControl
                         type="number"
                         name="estimatedEarnings"

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import { Grid, Col, Row } from "react-bootstrap";
 import Form from "./Form";
 import ChildForm from "./ChildForm";
@@ -59,8 +59,12 @@ class Home extends Component {
                         <div className="child-form">
                             { 
                                 this.state.companies.length === 0 
-                                    ? null 
-                                    : <ChildForm update={this.UpdateList} isParent={isParent} company={edit}/>
+                                ? null 
+                                : 
+                                <Fragment>
+                                    <span className="child_label">Add Child -> Company</span>
+                                    <ChildForm update={this.UpdateList} isParent={isParent} company={edit}/>
+                                </Fragment>
                             }
                         </div>
                     </Col>
