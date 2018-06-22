@@ -118,7 +118,7 @@ class ChildForm extends Component {
                     <FormControl
                         type="text"
                         name="parentCompany"
-                        // value={this.state.}
+                        value={this.state.parentCompany}
                         placeholder="Enter Company Name"
                         onChange={this.handleChange}
                     />
