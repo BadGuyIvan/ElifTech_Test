@@ -1,14 +1,3 @@
-.child-form {
-  margin-top: 15px; }
-  .child-form .child_label {
-    display: block;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-align: center;
-    font-weight: bold; }
-
-.Tree {
-  margin-top: 25px; }
 ul.tree {
   list-style: none;
   margin: 0;
@@ -38,3 +27,14 @@ ul.tree {
       left: -7px; }
     ul.tree li:last-child:before {
       border-left: 1px solid #646464; }
+.child-form {
+  margin-top: 15px; }
+  .child-form .child_label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold; }
+
+.Tree {
+  margin-top: 25px; }
